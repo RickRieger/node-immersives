@@ -1,0 +1,15 @@
+{
+  "name": "node-immersives",
+  "version": "1.0.0",
+  "description": "Code Immersives Node.js exercise: a terminal app that greets you and builds your initials and email",
+  "main": "nodeimmersives.js",
+  "scripts": {
+    "start": "node nodeimmersives.js",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
