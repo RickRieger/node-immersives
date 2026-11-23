@@ -14,4 +14,4 @@ console.log ("Your name in all caps is: " +upperCase1 + " " + upperCase2);
 
 console.log ('Your initials are as follows: ' + upperCase1[0][0] + '.' + upperCase2[0][0]+'.');
 
-console.log ('Your email address: ' + firstName+'.'+lastName+'@codeimmersives.com');
+console.log ('Your email address: ' + firstName.toLowerCase()+'.'+lastName.toLowerCase()+'@codeimmersives.com');
